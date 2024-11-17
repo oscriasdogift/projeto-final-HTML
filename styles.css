@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #000;
+    color: #f1c40f;
+    padding: 0;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  
+  .header {
+    background-image: url('https://img.odcdn.com.br/wp-content/uploads/2022/12/pele-fifa-electronic-arts.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    height: 400px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-top: 0;
+    padding-top: 100px;
+  }
+  
+  .conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .texto-imagem {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .texto-imagem img {
+    width: 48%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    margin-bottom: 0;
+  }
+  
+  .texto-imagem div {
+    flex: 1;
+    padding: 10px;
+    max-width: 50%;
+  }
+  
+  .texto-imagem h2 {
+    color: #f1c40f;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  .texto-imagem p {
+    font-size: 1.2rem;
+    color: #ecf0f1;
+    text-align: justify;
+    line-height: 1.8;
+  }
+  
+  .texto-imagem.invertido {
+    flex-direction: row-reverse;
+  }
+  
+  .texto-imagem.invertido img {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  
+  .texto-imagem:first-of-type img {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  .texto-imagem:not(:first-of-type) img {
+    width: 48%;
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  .texto-imagem:first-of-type img {
+    margin-top: 60px;
+  }
+  
+  .texto-imagem:nth-of-type(2) img {
+    margin-top: 30px;
+  }
+  
+  .video-section {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 480px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
